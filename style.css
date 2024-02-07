@@ -117,7 +117,7 @@ left: 20px;
     flex-direction: row;
     flex-wrap: wrap;
   
-    height: 1000px;
+    height: auto;
     
 }
 .amag{
@@ -148,7 +148,7 @@ left: 20px;
     flex-direction: row;
     flex-wrap: wrap;
 
-    height: 1000px;
+    height: auto;
     
 }
 .amag{
@@ -160,7 +160,7 @@ left: 20px;
 }
 .feature{
     text-transform: capitalize;
-    margin-left: 70px;
+
 }
 /* media queries /////////////////*/
 @media screen and (max-width:700px){
@@ -175,19 +175,39 @@ left: 20px;
 }
 /* about us /////////////////// */
 #section{
-    height: 500px;
+
     text-transform: capitalize;
-    text-align: center;
-    font-size: 20px;
-     
+margin: 0%;
+padding: 0%;
+    width: 1300px;
+     height: 800px;
+}
+.hh{
+font-size: 30px;
+font-weight: bolder;
+color: rgb(0, 0, 0);
+text-decoration: underline;
 }
 
 
+@media screen and (max-width:700px){
+    #section {
+        width: auto;
+        height:auto;
+    }
+   
+    .hh{
+        font-size: 30px;
+    }
+
+}
+/* ///////////////////////////////// */
 #hgroup{
     text-transform: capitalize;
     text-decoration: none;
 text-align: left;
 background-color:darkgray;
+width: auto;
 }
 #hgroup > h1{
 text-align: center;
@@ -196,7 +216,12 @@ text-align: center;
     
 }
 /*  CONTACT US */
-
+@media screen and (max-width:700px){
+    #hgroup{
+        width: auto;
+    }
+    
+}
 #fieldset{
     padding: 10px;
     margin: auto;
@@ -248,10 +273,44 @@ footer{
     .h2{
 padding-left: 1px;
 font-size: 15px;
+width: auto;
     }
    .emag {
-         vertical-align:baseline;
+         vertical-align:auto;
          width: 30px;
          height: 20px;
+    }
+    #fieldset{
+width: 20px;
+height: auto;
+    }
+  
+}
+.di{
+    width: 300px;
+    height: 60px;
+    border: 2px solid;
+ border-radius: 10px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+ 
+}
+.di{
+    margin-bottom: 100px;
+}
+.di>h1{
+    font-size: 30px;
+}
+
+@media screen and (max-width:700px){
+    .di{
+        width: 200px;
+        height: 40px;
+
+    }
+    .di>h1{
+        font-size: 23px;
     }
 }
