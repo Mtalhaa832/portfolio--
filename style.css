@@ -1,0 +1,260 @@
+#nav{
+    background-color: rgb(11, 96, 122);
+   text-transform: capitalize;
+   height: 70px;
+   font-size: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  color: rgb(245, 180, 14); 
+  background-size: cover;
+ font-style:normal;
+
+}
+#ul>li{
+ display: inline;
+padding-left: 10px;
+    
+}
+.a{
+    color: orange;
+    text-decoration: none;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+#amg{
+    width: 100px;
+    height: 66px;
+    border-radius: 250px;
+    position: absolute;
+    left: 100px;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width:700px){
+    #nav{
+       font-size: 19px; 
+       height: 50px;
+    }
+    #ul>li{
+        padding-left: 4px;
+    }
+    #amg{
+        width: 70px;
+        height: 48px;
+        position: absolute;
+        left: 10px;
+    }
+
+    
+}
+/* HEADER ///////////// */
+marquee{
+    color: rgb(27, 108, 169);
+    text-transform: capitalize;
+    
+}
+#header{
+    margin-top: 30px;
+   height: 800px;
+    text-transform: capitalize;
+    padding-left: 60px;
+}
+
+span{
+    color: crimson;
+}
+#p{
+    font-style: italic;
+}
+button{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(181, 139, 60);
+    color: beige;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 15px;
+    float: left;
+    border-radius: 10px;
+}
+/*  IMAGE /////////// */
+#img{
+    height: 450px;
+    width: 450px;
+    border-radius:250px ;
+   
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    box-shadow: 10px 10px 30px burlywood;
+   
+}
+/* image media queries */
+@media screen and (max-width:700px){
+    #header{
+        font-size: 10px;
+    }
+    button{
+    font-size: 10px; 
+    height:25px ;
+    width: 100px;   
+    }
+#img{
+    width: 280px;
+    height: 280px;
+border-radius: 250px;
+position: absolute;
+top: 500px;
+left: 20px;
+}    
+}
+/*  PROJECT///////////////////////// */
+#article{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    height: 1000px;
+    
+}
+.amag{
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 16px 16px 19px burlywood;
+    
+}
+.project{
+    text-transform: capitalize;
+}
+/* media queries /////////////////*/
+@media screen and (max-width:700px){
+    .amag{
+        height: 200px;
+        width: 200px;
+
+    }
+    .project{
+        font-size: 10px;
+    }
+}
+/*  feature///////////////////////// */
+#main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  gap: 60px;
+    height: 1000px;
+    
+}
+.amag{
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 16px 16px 19px burlywood;
+    
+}
+.feature{
+    text-transform: capitalize;
+}
+/* media queries /////////////////*/
+@media screen and (max-width:700px){
+    .amag{
+        height: 200px;
+        width: 200px;
+
+    }
+    .feature{
+        font-size: 10px;
+    }
+}
+/* about us /////////////////// */
+#section{
+    height: 500px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+
+#hgroup{
+    text-transform: capitalize;
+    text-decoration: none;
+text-align: left;
+background-color:darkgray;
+}
+#hgroup > h1{
+text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    
+}
+/*  CONTACT US */
+
+#fieldset{
+    padding: 10px;
+    margin: auto;
+    display: block;
+    width: 350px ;
+    font-size: 20px;
+    text-align: left;
+    border-radius:10px;
+    height: 400px;
+    border: 2px solid;
+}
+.input {
+    background-color: beige;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    
+    border: 1px solid;
+}
+
+textarea{
+    text-align: center;
+    
+    border: 1px solid;
+}
+
+#dd{
+    float: right;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+   
+}
+.h2{
+    padding-top: 50px;
+    padding-left: 100px;
+    color: antiquewhite;
+ }
+ .emag{
+    vertical-align: middle;
+    border-radius: 250px;
+}
+#art{
+    background-color: darkslategrey;
+}
+footer{
+    text-align: center;
+}
+/* media queries /////////////////*/
+@media screen and (max-width:700px){
+    .h2{
+padding-left: 1px;
+font-size: 15px;
+    }
+   .emag {
+         vertical-align:baseline;
+         width: 30px;
+         height: 20px;
+    }
+}
